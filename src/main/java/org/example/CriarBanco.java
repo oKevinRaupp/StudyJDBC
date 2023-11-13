@@ -19,7 +19,6 @@ public class CriarBanco {
             System.out.println("Banco criado com sucesso!");
         } catch (ClassNotFoundException | SQLException e){
             e.printStackTrace();
-
         }
     }
 }
