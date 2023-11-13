@@ -25,6 +25,5 @@ public class TesteKevin {
 
         statement.close();
         entrada.close();
-
     }
 }
