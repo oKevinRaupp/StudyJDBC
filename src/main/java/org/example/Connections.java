@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class Connections {
     public static Connection getConexao(){
         try{
-            String stringConexao = "jdbc:mysql://localhost:3306?VerifyServerCertificate=false&useSSL=true";
+            String stringConexao = "jdbc:mysql://localhost:3306/curso_java?VerifyServerCertificate=false&useSSL=true";
             String usuario = "devkevin";
             String senha   = "Teste123@!";
             Class.forName("com.mysql.cj.jdbc.Driver");
