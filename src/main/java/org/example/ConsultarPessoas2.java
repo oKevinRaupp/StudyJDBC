@@ -7,12 +7,10 @@ import java.util.Scanner;
 
 public class ConsultarPessoas2 {
     public static void main(String[] args) throws SQLException {
-        //TECLADO
         Scanner entrada = new Scanner(System.in);
         System.out.println("Deseja procurar qual nome? ");
         String pesquisa = entrada.nextLine();
 
-        //ESTABELECENDO CONEXÃO
         Connection conexao = Connections.getConexao();
         String sql = "SELECT * FROM pessoas WHERE nome LIKE ?";
 
