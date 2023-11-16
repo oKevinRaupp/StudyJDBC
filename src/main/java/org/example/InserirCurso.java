@@ -9,8 +9,8 @@ public class InserirCurso {
         Connection conexao = Connections.getConexao();
 
         String sql = """
-                INSERT INTO curso (curso) VALUES('SQL'),('Programacao'),
-                ('JAVA');""";
+                INSERT INTO curso (curso) VALUES('Photoshop'),('DreamWeaver'),
+                ('Python');""";
 
         Statement statement = conexao.createStatement();
         statement.execute(sql);
